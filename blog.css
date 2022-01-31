@@ -1,0 +1,322 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  background-color: aliceblue;
+}
+header {
+  background-color: rgb(61, 6, 134);
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+.website-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.website-header h1 {
+  text-align: left;
+  width: 70%;
+  font-weight: bolder;
+  margin-left: 10px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  color: white;
+}
+.website-header h1 > i {
+  color: rgb(255, 94, 0);
+  padding: 0px 3px;
+  font-size: 30px;
+}
+.subscribe a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.subscribe i {
+  padding: 4px;
+  color: aliceblue;
+  margin-right: 20px;
+}
+.subscribe a:hover {
+  color: rgb(255, 94, 0);
+}
+.line {
+  width: 100%;
+  background-color: rgb(6, 156, 156);
+  height: 1px;
+  max-width: 100%;
+}
+.nav-items {
+  height: auto;
+  width: auto;
+  padding-bottom: 5px;
+}
+
+.nav-items ul {
+  display: flex;
+  justify-content: center;
+}
+.nav-items li {
+  list-style: none;
+  padding: 0 25px;
+}
+.nav-items li > a {
+  text-decoration: none;
+  color: rgb(255, 94, 0);
+  font-weight: bold;
+}
+.nav-items li > a:hover {
+  color: aliceblue;
+}
+.first-advert {
+  max-width: 100%;
+  width: auto;
+  height: 250px;
+  background-color: aliceblue;
+  align-items: center;
+  padding: 10px;
+  margin-top: 150px;
+}
+.first-advert p {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.363);
+}
+.advert {
+  max-width: 100%;
+  width: auto;
+  height: 250px;
+  background-color: aliceblue;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.advert p {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.363);
+}
+#advert-one {
+  width: auto;
+  max-width: 100%;
+  height: 90%;
+  margin: auto;
+  display: block;
+}
+.video-advert {
+  width: 100%;
+}
+.video-advert video {
+  width: auto;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  height: 250px;
+}
+.video-advert p {
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.363);
+}
+.container,
+.second-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.left-side {
+  width: 65%;
+  margin: 0;
+  padding: 10px;
+}
+.left-side h1 a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+#left-content {
+  width: 85%;
+  margin: 0;
+}
+#left-content a {
+  text-decoration: none;
+  color: black;
+}
+#left-content a > span {
+  color: rgb(61, 6, 134);
+}
+#left-date {
+  font-weight: lighter;
+  color: rgba(17, 17, 17, 0.411);
+}
+.first-content-img {
+  width: 100%;
+  display: block;
+}
+.verti-line {
+  border-left: 2px solid green;
+  height: 900px;
+}
+.verti-line2 {
+  border-left: 2px solid green;
+  height: 970px;
+}
+.right-side {
+  width: 30%;
+}
+.right-side i {
+  color: rgb(255, 94, 0);
+}
+.right-side h2 {
+  display: block;
+}
+#right-content a {
+  font-weight: bold;
+  margin: 0 2px;
+  text-decoration: none;
+  color: black;
+}
+#right-content a:hover {
+  color: rgb(255, 94, 0);
+}
+#right-date {
+  font-weight: lighter;
+  color: rgba(17, 17, 17, 0.411);
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.divide-line {
+  width: 100%;
+  background-color: rgb(61, 6, 134);
+  height: 1px;
+  max-width: 100%;
+  margin-top: 15px;
+  padding: 0;
+}
+.tag {
+  margin: 0 5px;
+  width: 100px;
+  padding: 10px;
+  background-color: rgb(61, 6, 134);
+  color: aliceblue;
+  font-weight: bold;
+}
+.popularFeed-left-side {
+  float: left;
+  width: 65%;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.news-grid {
+  width: 220px;
+  height: 350px;
+  text-align: center;
+  display: block;
+  margin: 5px 10px;
+  float: left;
+  padding: 5px;
+}
+.news-grid p {
+  padding: 20px;
+  background-color: rgb(127, 128, 129);
+  font-family: "roboto", sans-serif;
+}
+.news-grid p:hover {
+  background-color: rgb(61, 6, 134);
+  color: aliceblue;
+}
+#details {
+  padding-top: 250px;
+  height: 30px;
+}
+
+.grid-img {
+  width: 100%;
+  height: 250px;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.grid-section {
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+  display: flex;
+}
+.grid-box {
+  width: 100%;
+  max-width: 100%;
+  height: 300px;
+  float: left;
+  margin: 10px 0;
+  align-items: center;
+}
+.gridbox-img {
+  width: 90%;
+  height: 250px;
+  margin: 0 5px;
+}
+.grid-box p {
+  display: block;
+  text-align: left;
+  padding-left: 10px;
+  margin: 0;
+  font-family: "roboto", sans-serif;
+}
+
+.foot {
+  width: 100%;
+  height: auto;
+  background-color: rgb(47, 48, 48);
+  padding-top: 20px;
+}
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.separator h2 {
+  color: rgba(255, 255, 255, 0.795);
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.separator:not(:empty)::before {
+  margin-right: 0.25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: 0.25em;
+}
+.foot span {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.foot span a {
+  text-decoration: none;
+  color: rgb(255, 94, 0);
+}
+
+.social-icons {
+  margin-right: 10px;
+}
+.social-icons i {
+  padding: 7px;
+}
